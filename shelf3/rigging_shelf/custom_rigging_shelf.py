@@ -1,14 +1,14 @@
 import os
 from importlib import reload
-from shelf3.base import ShelfBase
+from base import ShelfBase
 
-from shelf3.rigging_shelf.attributes_helper_shelf_button import AttributesHelperShelfButton
-from shelf3.rigging_shelf.joint_helper_shelf_button import JointHelperButton
-from shelf3.rigging_shelf.opm_button import OPMButton
-from shelf3.rigging_shelf.toggle_joint_orient_button import ToggleJointOrientButton
-from shelf3.rigging_shelf.locator_button import LocatorButton
-from shelf3.rigging_shelf.group_helper_btn import GroupHelperBtn
-from shelf3.rigging_shelf.skin_button import SkinButton
+from rigging_shelf.attributes_helper_shelf_button import AttributesHelperShelfButton
+from rigging_shelf.joint_helper_shelf_button import JointHelperButton
+from rigging_shelf.opm_button import OPMButton
+from rigging_shelf.toggle_joint_orient_button import ToggleJointOrientButton
+from rigging_shelf.locator_button import LocatorButton
+from rigging_shelf.group_helper_btn import GroupHelperBtn
+from rigging_shelf.skin_button import SkinButton
 
 ICON_DIR = os.path.join(os.path.dirname(__file__), 'icons')
 

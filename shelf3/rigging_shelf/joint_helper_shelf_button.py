@@ -1,6 +1,6 @@
 import maya.cmds as cmds
-from shelf.button import ShelfButton
-from shelf.button import MenuItem
+from button import ShelfButton
+from button import MenuItem
 
 import joint_helpers as jnt
 import rigging_shelf.joint_creator_options_btn as jnt_creator_options

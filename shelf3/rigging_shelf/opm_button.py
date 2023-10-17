@@ -1,6 +1,6 @@
 import maya.cmds as cmds
-from shelf.button import ShelfButton
-from shelf.button import MenuItem
+from button import ShelfButton
+from button import MenuItem
 
 import offset_parent_matrix_helpers as opm
 

@@ -1,5 +1,5 @@
-from shelf.button import ShelfButton
-from shelf.button import MenuItem
+from button import ShelfButton
+from button import MenuItem
 import maya.cmds as cmds
 import maya.OpenMaya as om
 
@@ -9,8 +9,8 @@ class AttributesHelperShelfButton(ShelfButton):
     def __init__(self):
         ShelfButton.__init__(self, button_click=ShelfButton.RIGHT_CLICK, icon="attrs_cp", icon_only=True)
         
-        from shelf.rigging_shelf.category_prompt_ui import CategoryPromptUI
-        from shelf.rigging_shelf.divider_prompt_ui import DividerPromptUI
+        from rigging_shelf.category_prompt_ui import CategoryPromptUI
+        from rigging_shelf.divider_prompt_ui import DividerPromptUI
         
         self.__category_ui = CategoryPromptUI(callback=self.create_category_callback)
         self.__divider_ui = DividerPromptUI(callback=self.create_divider_callback)
